@@ -1,0 +1,508 @@
+.Page {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* 상단 */
+.top {
+  width: 100%;
+  height: 750px;
+  display: flex;
+}
+
+/* 상단 왼쪽 런치메뉴 부분 */
+.topLeft {
+  width: 40%;
+  /* height: 750px; */
+  background-color: black;
+  padding: 30px 50px;
+}
+
+h2 {
+  color: white;
+  line-height: 30%;
+  font-size: 38px;
+}
+
+/* 김치찌개 정식 부분 */
+.setting {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceTag {
+  display: flex;
+  align-items: end;
+}
+
+.unit {
+  font-size: x-small;
+  line-height: 200%;
+  opacity: 0.7;
+}
+
+.content {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+
+  img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+}
+
+.span {
+  font-size: 14px;
+  color: white;
+  opacity: 0.6;
+}
+.span2 {
+  font-size: 14px;
+  color: white;
+  font-weight: bold;
+}
+
+.setA {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setB {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.set {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  opacity: 0.6;
+}
+
+.picture {
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  position: relative;
+
+  img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+}
+.image1 {
+  position: absolute;
+  right: 100px;
+  z-index: 3;
+}
+.image2 {
+  position: absolute;
+  right: 50px;
+  z-index: 2;
+}
+.image3 {
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+}
+.plus {
+  font-size: x-large;
+  display: flex;
+  position: absolute;
+  margin-left: 170px;
+  line-height: 400%;
+}
+
+/* 상단 외쪽 런치메뉴 부분 */
+
+/* 상단 오른쪽  */
+.topRight {
+  width: 60%;
+  height: 750px;
+}
+
+/* 상단 오른쪽 제육볶음 세트 A 부분 */
+.high {
+  width: 100%;
+  height: 60%;
+  box-sizing: border-box;
+  padding: 50px;
+  background-color: rgb(250, 243, 227);
+}
+
+.boxB {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxC {
+  color: black;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.boxD {
+  display: flex;
+  justify-content: space-between;
+  /* position: relative; */
+
+  img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+  }
+}
+.pictureC {
+  display: flex;
+  position: relative;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+.image4 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 3;
+}
+.image5 {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  z-index: 2;
+}
+.image6 {
+  position: absolute;
+  top: 140px;
+  right: 10px;
+  z-index: 1;
+}
+/* 상단 오른쪽 제육볶음 세트 A 부분 */
+
+/* <!-- 상단 오른쪽 제육볶음 세트 B 부분 --> */
+.low {
+  width: 100%;
+  height: 40%;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgba(193, 181, 153, 0.865);
+  padding: 50px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.priceA {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.unitA {
+  font-size: x-small;
+  font-weight: bold;
+  line-height: 200%;
+  opacity: 0.7;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.B {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.box2-1 {
+  padding-top: 20px;
+}
+.box2-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.box3 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin: 20px 0;
+  height: 20%;
+}
+/* <!-- 상단 오른쪽 제육볶음 세트 B 부분 --> */
+
+/* 하단 */
+.bottom {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  box-sizing: border-box;
+}
+
+/* 하단 왼쪽부분 */
+.bottomLeft {
+  width: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* 점심메뉴 시간 */
+.content1 {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  width: 350px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+}
+/* 점심메뉴 시간 */
+
+.content2 {
+  font-size: 13px;
+}
+
+.foodBox {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+
+/* 국/찌개류 */
+.content3 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+/* 국/찌개류 중 김치찌개, 된장찌개, 청국장 */
+.food {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 50%;
+
+  .moneyVND {
+    display: flex;
+    align-items: flex-end;
+  }
+  .money {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .VND {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+}
+/* 국/찌개류 중 김치찌개, 된장찌개, 청국장 */
+
+/* 국/찌개류 중 동태찌개 */
+.content4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.food1 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 20px;
+  border-radius: 50%;
+
+  .title1 {
+    padding-left: 40px;
+  }
+
+  .moneyVND1 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .money1 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .VND1 {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+}
+/* 국/찌개류 중 동태찌개 */
+
+/* 국/찌개류 중 육개장, 뚝배기불고기, 갈비탕 */
+.content5 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Left {
+  width: 50%;
+}
+.Right {
+  width: 50%;
+}
+.food2 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 50%;
+
+  .moneyVND2 {
+    display: flex;
+    align-items: flex-end;
+  }
+  .money2 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .VND2 {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+}
+
+.one {
+  display: flex;
+}
+/* 국/찌개류 중 육개장, 뚝배기불고기, 갈비탕 */
+
+.emptyBox {
+  width: 100%;
+  height: 80px;
+}
+
+/* 하단 오른쪽 부분 */
+.bottomRight {
+  width: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* <!-- 하단 오른쪽 위 --> */
+/* <!-- 볶음류 --> */
+.content6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.food3 {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 50%;
+
+  .moneyVND3 {
+    display: flex;
+    align-items: flex-end;
+  }
+  .money3 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .VND3 {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+}
+/* 볶음류 */
+/* 하단 오른쪽 위 */
+
+/* 하단 오른쪽 아래 */
+/* 분식류 */
+.foodBox2 {
+  color: black;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 10px 10px;
+  padding-top: 50px;
+}
+
+.content7 {
+  display: flex;
+  gap: 60px;
+}
+
+.bob {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.big {
+  font-size: 20px;
+  font-weight: bold;
+}
+.small {
+  font-size: 12px;
+  opacity: 0.7;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+/* 분식류 */
+/* 하단 오른쪽 아래 */
