@@ -7,6 +7,7 @@
   font-family: "Arial", "Verdana", "Helvetica", sans-serif;
 }
 
+/* 왼쪽 */
 .product {
   width: 40%;
   background-color: #f4e1c1;
@@ -52,6 +53,7 @@
   opacity: 0.7;
 }
 
+/* 오른쪽 */
 .explain {
   width: 60%;
   font-weight: normal;
@@ -98,4 +100,22 @@
 
 .recipe {
   line-height: 300%;
+}
+
+/* 메뉴판으로 돌아가기 버튼 */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.Back {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
 }
